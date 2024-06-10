@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <title>Photastic</title>
+  <style>
+    body {
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }    .header-pic {
+      width: 100%;
+      height:300px;
+      background-image: url("img/smartphone.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+  
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark d-flex justify-content-center!">
+      <div class="d-flex m-auto align-items-center">
+        <div>
+          <a href="#" class="navbar-brand ps-4 ">Photastic
+          </a>
+        </div>
+        <div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPhotastic" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>  
+      <div class="collapse navbar-collapse pe-4 m-auto" id="navbarPhotastic">
+        <ul class="navbar-nav m-auto pe-4 mb-2 mb-sm-0 justify-content-center">
+          <li class="nav-item">
+            <a href="#home" class="nav-link nav-link-seconfdary active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#preise" class="nav-link nav-link-seconfdary">Preise</a>
+          </li>
+          <li class="nav-item">
+            <a href="#kunden" class="nav-link nav-link-seconfdary">Kundenstimmen</a>
+          </li>
+          <li class="nav-item">
+            <a href="#kontakt" class="nav-link nav-link-seconfdary">Kontakt</a>
+          </li>
+        </ul>
+        <form action="" class="d-flex">
+          <input type="search" placeholder="Suche nach..." aria-label="Search">
+          <button class="btn btn-outline-primary form" type="submit">SEARCH</button>
+        </form>
+      </div>
+      </div>
+    </nav>
+    <div class="header-pic container d-flex text-center justify-content-center align-items-center">
+      <div class="header-text p-3 shadow-sm" style="background-color: white; border-radius: 10px;background: rgba(255,255,255,0.75);
+      -webkit-backdrop-filter: blur(1px);
+      backdrop-filter: blur(1px);
+      border: 1px solid rgba(255,255,255,0.125);">
+        <h1 class="h1" style="font-size: 3rem;" id="home">Photastic</h1>
+        <p class=""> Die Photo App des 21. Jahrhunderts</p>
+        <button class="btn btn-primary btn-sm">Jetzt testen</button>
+
+      </div>
+
+    </div>
+  </header>
+  <main>
+    <section class="moeglichkeiten container-fluid bg-light p-4 pb-4">
+      <div class="m-head text-center mt-4">
+        <h2 class="display-5">Undendlich Möglichkeiten</h2>
+        <p class="h6" style="font-size: 0.9rem;">Dank unserer eingebauten Features. Verfügbar in allen Versionen.</p>
+
+      </div>
+
+      <div class="container">
+        <div class="container-fluid row m-auto">
+          <div class="col-md-3 col-sm-6 m-auto">
+            <div class="card my-5 m-auto" style="width: 10rem">
+              <img class="card-img-top" src="img/photo.jpeg" alt="">
+              <div class="card-head text-center pt-4 h6">
+                <h6>Aufnehmen</h6>
+                <p class="text-muted" style="font-size: 0.6rem; padding: 0px 4px;">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+              <div class="card-body text-center">
+                <button class="btn btn-outline-primary btn-sm">Zum Artikel</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card my-5 mx-auto" style="width: 10rem">
+              <img class="card-img-top" src="img/edit.jpeg" alt="edit">
+              <div class="card-head text-center pt-4 h6">
+                <h6>Bearbeiten</h6>
+                <p class="text-muted " style="font-size: 0.6rem; padding: 0px 4px;">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+              <div class="card-body text-center">
+                <button class="btn btn-outline-primary btn-sm">Zum Artikel</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card my-5 mx-auto" style="width: 10rem">
+              <img class="card-img-top" src="img/cloud.jpeg" alt="">
+              <div class="card-head text-center pt-4 h6">
+                <h6>Speichern</h6>
+                <p class="text-muted " style="font-size: 0.6rem; padding: 0px 4px;">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+              <div class="card-body text-center">
+                <button class="btn btn-outline-primary btn-sm">Zum Artikel</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card my-5 mx-auto" style="width: 10rem">
+              <img class="card-img-top" src="img/share.jpeg" alt="">
+              <div class="card-head text-center pt-4 h6">
+                <h6>Teilen</h6>
+                <p class="text-muted " style="font-size: 0.6rem; padding: 0px 4px;">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+              <div class="card-body text-center">
+                <button class="btn btn-outline-primary btn-sm">Zum Artikel</button>
+              </div>
+            </div>
+          </div>
+      </div>
+       
+        
+
+    </section>
+
+    <section class=" container Versionen row mx-auto" id="preise">
+      <h2 class="text-center mt-5 mb-5">Unsere Versionen</h2>
+
+      <div class="container-fluid col-md-4 col-sm-6 mb-5">
+        <div class="card">
+          <div class="card-head text-center bg-light p-2">Free</div>
+          <div class="card-body text-center">
+            <div class="mb-3"><span style="font-weight: bolder;">0€</span><span class="text-muted">/Monat</span></div>
+            <div class="card-p" style="font-size: 0.8rem; line-height: 5px;">
+              <p>Alle filter</p>
+              <p>2 GB Cloud-Speicher</p>
+              <p>1 Social Media Account</p>
+              <p>E-mail Support</p>
+            </div>
+            <div>
+              <a href="#"><button class="btn btn-outline-primary btn-sm">Kostenlos anmelden</button></a>
+            </div>
+          </div>
+          <div class="card-footer bg-light text-center text-muted">
+            Kostenlos. Für immer!
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid col-md-4 col-sm-6 mb-5">
+        <div class="card">
+          <div class="card-head text-center bg-primary text-light p-2">Basic</div>
+          <div class="card-body text-center">
+            <div class="mb-3"><span style="font-weight: bolder;">0€</span><span class="text-muted">/Monat</span></div>
+            <div class="card-p" style="font-size: 0.8rem; line-height: 5px;">
+              <p>Alle filter</p>
+              <p>2 GB Cloud-Speicher</p>
+              <p>1 Social Media Account</p>
+              <p>E-mail Support</p>
+            </div>
+            <div>
+              <a href="#"><button class="btn btn-primary btn-sm">Kostenlos anmelden</button></a>
+            </div>
+          </div>
+          <div class="card-footer bg-primary text-center text-light">
+            Kostenlos. Für immer!
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid col-md-4 col-sm-12">
+        <div class="card">
+          <div class="card-head text-center bg-secondary text-light p-2">Premium</div>
+          <div class="card-body text-center">
+            <div class="mb-3"><span style="font-weight: bolder;">0€</span><span class="text-muted">/Monat</span></div>
+            <div class="card-p" style="font-size: 0.8rem; line-height: 5px;">
+              <p>Alle filter</p>
+              <p>2 GB Cloud-Speicher</p>
+              <p>1 Social Media Account</p>
+              <p>E-mail Support</p>
+            </div>
+            <div>
+              <a href="#"><button class="btn btn-secondary btn-sm">Kostenlos anmelden</button></a>
+            </div>
+          </div>
+          <div class="card-footer bg-secondary text-center text-light" style="color:white">
+            Kostenlos. Für immer!
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="containerf-fluid bg-light user">
+      <h2 class="pt-5 pb-4 text-center">Unsere Nutzer sagen</h2>
+    
+        
+        <div  id="kunden"></div>
+        <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container text-center d-flex flex-column justify-content-center align-items-center">
+                
+                <img class="rounded-circle" src="img/testimonial-1.jpeg" alt="" width="100px">
+                <div class="user-text" style="max-width: 700px;">
+                  <p class="pt-3 fs-6 fw-lighter"><span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur perspiciatis nam quos at ex unde quo consequuntur? Voluptatibus accusamus tempora iure recusandae consequatur officiis sed itaque illum nostrum, sequi odio.</p>
+                </div>
+                <h5 class="fs-6 fw-bolder">John Doe</h5>
+                <h6 class="text-muted fs-6">Selbständiger Photograph</h6>
+                <div class="stars d-flex justify-content-center pt-1 pb-5 mb-3">
+                  <img src="img/star-svgrepo-com.svg" alt="" width="20px">
+                  <img src="img/star-svgrepo-com.svg" alt="" width="20px">
+                  <img src="img/star-svgrepo-com.svg" alt="" width="20px">
+                  <img src="img/star-svgrepo-com.svg" alt="" width="20px">
+                  <img src="img/star-svgrepo-com_clear.svg" alt="" width="20px">
+                </div>
+              </div>
+              
+            </div>
+            <div class="carousel-item">
+
+              <div class="container text-center d-flex flex-column justify-content-center align-items-center">
+                
+                <img class="rounded-circle" src="img/testimonial-2.jpeg" alt="" width="100px">
+                <div class="user-text" style="max-width: 700px;">
+                  <p class="pt-3 fs-6 fw-lighter"><span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur perspiciatis nam quos at ex unde quo consequuntur? Voluptatibus accusamus tempora iure recusandae consequatur officiis sed itaque illum nostrum, sequi odio.</p>
+                </div>
+                <h5 class="fs-6 fw-bolder">Lisa Smith</h5>
+                <h6 class="text-muted fs-6">Selbständige Designerin</h6>
+                <div class="stars d-flex justify-content-center pt-1 pb-5 mb-3">
+                  <img src="img/star-svgrepo-com.svg" alt="" width="20px">
+                  <img src="img/star-svgrepo-com.svg" alt="" width="20px">
+                  <img src="img/star-svgrepo-com.svg" alt="" width="20px">
+                  <img src="img/star-svgrepo-com_clear.svg" alt="" width="20px">
+                  <img src="img/star-svgrepo-com_clear.svg" alt="" width="20px">
+                </div>
+              </div>
+              
+            </div>
+            <div class="carousel-item">
+
+              <div class="container text-center d-flex flex-column justify-content-center align-items-center">
+                
+                <img class="rounded-circle" src="img/testimonial-3.jpeg" alt="" width="100px">
+                <div class="user-text" style="max-width: 700px;">
+                  <p class="pt-3 fs-6 fw-lighter"><span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur perspiciatis nam quos at ex unde quo consequuntur? Voluptatibus accusamus tempora iure recusandae consequatur officiis sed itaque illum nostrum, sequi odio.</p>
+                </div>
+                <h5 class="fs-6 fw-bolder">Susanne Robson</h5>
+                <h6 class="text-muted fs-6">Selbständige Autorin </h6>
+                <div class="stars d-flex justify-content-center pt-1 pb-5 mb-3">
+                  <img src="img/star-svgrepo-com.svg" alt="" width="20px">
+                  <img src="img/star-svgrepo-com.svg" alt="" width="20px">
+                  <img src="img/star-svgrepo-com.svg" alt="" width="20px">
+                  <img src="img/star-svgrepo-com.svg" alt="" width="20px">
+                  <img src="img/star-svgrepo-com.svg" alt="" width="20px">
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="carousel-item">
+
+              <div class="container text-center d-flex flex-column justify-content-center align-items-center">
+                
+                <img class="rounded-circle" src="img/photo.jpeg" alt="" width="100px">
+                <div class="user-text" style="max-width: 700px;">
+                  <p class="pt-3 fs-6 fw-lighter"><span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur perspiciatis nam quos at ex unde quo consequuntur? Voluptatibus accusamus tempora iure recusandae consequatur officiis sed itaque illum nostrum, sequi odio.</p>
+                </div>
+                <h5 class="fs-6 fw-bolder">Lukas Stein</h5>
+                <h6 class="text-muted fs-6">Selbständiger Fotograph </h6>
+                <div class="stars d-flex justify-content-center pt-1 pb-5 mb-3">
+                  <img src="img/star-svgrepo-com.svg" alt="" width="20px">
+                  <img src="img/star-svgrepo-com.svg" alt="" width="20px">
+                  <img src="img/star-svgrepo-com.svg" alt="" width="20px">
+                  <img src="img/star-svgrepo-com.svg" alt="" width="20px">
+                  <img src="img/star-svgrepo-com.svg" alt="" width="20px">
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        
+      
+    </section>
+    
+    <section class="kontakt container-fluid" id="kontakt">
+      <div class="container">
+        <h2 class="pt-4">Kontaktieren sie uns</h2>
+        
+        <div class="row">
+          <form class="col-md-8" action="post">
+            <div class="row">
+              <div class="form-group col-md-6">
+                <label for="inputvn">Vorname</label>
+                <input type="text" class="form-control" id="inputvn" placeholder="Vorname">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputnn">Nachname</label>
+                <input type="text" class="form-control" id="inputnn" placeholder="Nachname">
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <label for="inputAddress">Email Adresse *</label>
+              <input type="email" class="form-control" id="inputemail" placeholder="Email Adresse" required>
+              <p class="text-muted" style="font-size: 0.7rem;">Wir teilen deine Email Adresse niemals, mit niemanden
+              </p>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Straße</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="">
+            </div>
+            <div class="row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">Stadt</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">Land</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>Deutschland</option>
+                  <option>USA</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-textarea mt-3">
+                <label for="textarea">Nachricht*</label>
+                <textarea class="form-control" name="textarea" id="textarea" rows="5" required></textarea>
+                <p class="text-muted" style="font-size: 0.7rem;">Pflichtfelder*
+                </p>
+
+                
+              </div>
+            </div>
+            <button type="submit" class="btn btn-outline-primary btn-sm mt-3 mb-5">Absenden</button>
+          </form>
+
+          <div class="kontak-text col-md-4">
+            <h6 class="fw-bolder">Komme in Kontakt</h6>
+            <p class="fs-6 " style="font-size: 0.7rem !important;"> Für Support oder weiter Fragen: <br>
+              schreiben sie uns eine Mail an <a href="mailto:mail@photastic.com">mail@photastic.com</a> 
+            </p>
+            <h6 class="fw-bolder">Standorte</h6>
+            <address style="font-size: 0.6rem;">
+              <span class="fw-bold">Photstice Gmbh</span> <br>
+              Hauptstraße 38 <br>
+              87654 Stadt <br>
+              Deutschland
+            </address>
+
+            <address style="font-size: 0.6rem;">
+              <span class="fw-bold">Photstice Inc.</span> <br>
+              769 E Dragram <br>
+              Seatle WA 98102 <br>
+              USA
+            </address>
+          </div>
+        </div>
+          
+        
+
+
+
+        
+      </div>
+
+    </section>
+  </main>
+  <footer class="footer container-fluid bg-dark text-light p-5">
+
+    <div class="container mx-auto row">
+      <div class="col-md-3">
+        <h6 class=""> Navigation</h6>
+        <ul class="nav flex-column" style="font-size: 0.7rem;">
+          <li class="nav-item"><a class="nav-link" href="#home" style="color: white !important;">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#preise" style="color: white !important;">Preise</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kunden" style="color: white !important;">Kundenstimmen</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontakt" style="color: white !important;">Kontakt</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <h6>Über uns</h6>
+        <p style="font-size: 0.7rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum animi placeat velit quidem illo necessitatibus.</p>
+      </div>
+
+      <div class="col-md-3">
+        <h6>Kontakt</h6>
+        <p style="font-size: 0.7rem;"><a href="mailto:mail@photastic.com">mail@photastic.com</a></p>
+        <p style="font-size: 0.7rem;"><a href="phone:+49 75 63 5522 ">+49 75 63 5522</a></p>
+      </div>
+
+      <div class="col-md-3">
+        <h6>Rechtliches</h6>
+        <p style="font-size: 0.7rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum animi placeat velit quidem illo necessitatibus.</p>
+      </div>
+
+    </div>
+
+    
+
+  </footer>
+</body>
+</html>
